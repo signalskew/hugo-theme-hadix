@@ -1,4 +1,4 @@
-# Zzo theme for Hugo
+# Hadix theme for Hugo
 
 English | 
 [한국어](https://github.com/zzossig/hugo-theme-zzo/blob/master/README.ko.md)
