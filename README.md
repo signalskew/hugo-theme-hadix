@@ -1,32 +1,10 @@
 # Hadix theme for Hugo
 
-English | 
-[한국어](https://github.com/zzossig/hugo-theme-zzo/blob/master/README.ko.md)
-
-I changed the search logic. So, please add this config params to your `config.toml` file.
-
-```toml
-...
-[outputs]
-  page = ["HTML", "SearchIndex"]
-  home = ["HTML", "RSS", "SearchIndex"]
-  section = ["HTML", "RSS", "SearchIndex"]
-  taxonomyTerm = ["HTML", "RSS", "SearchIndex"]
-  taxonomy = ["HTML", "RSS", "SearchIndex"]
-
-[outputFormats]
-  [outputFormats.SearchIndex]
-    mediaType = "application/json"
-    baseName = "index"
-    isPlainText = true
-    notAlternative = true
-```
-
-Thank you for click me!. Zzo theme is a blog theme powered by Hugo with free(always), and many features. 
+Hadix is blog theme powered by [Hugo](https://gohugo.io). It is a fork of the wonderful [Zzo](https://themes.gohugo.io/hugo-theme-zzo) theme, and made to look similar to [Radix for R Markdown](https://blog.rstudio.com/2018/09/19/radix-for-r-markdown) (hence the name, _H_adix). I like the appearance of Radix (see example [here](https://blogs.rstudio.com/tensorflow)) and wanted to bring a similar theme to Hugo for technical blogs and portfolios.
 
 ## Documentation
 
-[https://zzodocs.netlify.com/docs/](https://zzodocs.netlify.com/docs/)
+WIP
 
 ## Table of contents
 
